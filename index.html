@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Titel van mijn pagina</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Shopping Cart</h1>
+        <div>
+            <ul>
+                <li><a class="add-to-cart" href="#" data-name="apple" data-price="1.22">Apple £1.22</a></li>
+                <li><a class="add-to-cart" href="#" data-name="banana" data-price="1.54">Banana £1.54</a></li>
+                <li><a class="add-to-cart" href="#" data-name="Shoe" data-price="50.00">Shoe £50</a></li>
+                <li><a class="add-to-cart" href="#" data-name="frisbee" data-price="5.00">Frisbee £5.00</a></li>
+            </ul>
+
+            <button id="clear-cart">Clear cart</button>
+        </div>
+
+        <div>
+            <ul id="show-cart">
+
+            </ul>
+            <div>Total cart: <span id="total-cart"></span></div>
+        </div>
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
